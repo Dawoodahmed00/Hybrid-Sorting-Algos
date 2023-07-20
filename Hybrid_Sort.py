@@ -107,7 +107,6 @@ time_complexity_data = {}
 data_columns = [f'Dataset_{size}' for size in dataset_sizes]
 df = pd.DataFrame(columns=data_columns)
 
-
 data_columns = [f'Dataset_{size}' for size in dataset_sizes]
 master_df = pd.DataFrame(columns=data_columns)
 
